@@ -21,3 +21,4 @@
 <prescription type="broadcast" class="com.google.android.location.internal.AnalyticsSamplerReceiver" sender="any" />
 <prescription type="broadcast" class="com.google.android.gms.common.analytics.CoreAnalyticsReceiver" sender="any" />
 <prescription type="broadcast" class="com.google.android.gms.analytics.internal.GServicesChangedReceiver" sender="any" />
+</prescriptions>
