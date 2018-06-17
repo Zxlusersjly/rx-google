@@ -1,0 +1,23 @@
+<!-- 活动-应用使用情况统计 -->
+<prescription type="activity" class="com.google.android.gms.usagereporting.settings.UsageReportingActivity" sender="any" />
+<prescription type="activity" class="com.google.android.gms.ads.purchase.InAppPurchaseActivity" sender="any" />
+<prescription type="activity" class="com.google.android.gms.ads.settings.AdsSettingsActivity" sender="any" />
+<!-- 服务-应用使用情况统计和问题报告上传 -->
+<prescription type="service" class="com.google.android.gms.measurement.AppMeasurementService" sender="any" />
+<prescription type="service" class="com.google.firebase.crash.internal.service.FirebaseCrashReceiverService" sender="any" />
+<prescription type="service" class="com.google.firebase.crash.internal.service.FirebaseCrashSenderService" sender="any" />
+<prescription type="service" class="com.google.android.gms.wallet.service.analytics.AnalyticsIntentService" sender="any" />
+<prescription type="service" class="com.google.android.gms.analytics.service.AnalyticsService" sender="any" />
+<prescription type="service" class="com.google.android.gms.analytics.AnalyticsService" sender="any" />
+<prescription type="service" class="com.google.android.location.internal.AnalyticsUploadIntentService" sender="any" />
+<prescription type="service" class="com.google.android.gms.common.analytics.CoreAnalyticsIntentService" sender="any" />
+<prescription type="service" class="com.google.android.gms.analytics.service.PlayLogMonitorIntervalService" sender="any" />
+<prescription type="service" class="com.google.android.gms.analytics.internal.PlayLogReportingService" sender="any" />
+<prescription type="service" class="com.google.android.gms.analytics.service.RefreshEnabledStateService" sender="any" />
+<prescription type="service" class="com.google.android.gms.usagereporting.service.UsageReportingIntentService" sender="any" />
+<prescription type="service" class="com.google.android.gms.usagereporting.service.UsageReportingService" sender="any" />
+<!-- 广播-应用使用情况统计 -->
+<prescription type="broadcast" class="com.google.android.gms.analytics.AnalyticsReceiver" sender="any" />
+<prescription type="broadcast" class="com.google.android.location.internal.AnalyticsSamplerReceiver" sender="any" />
+<prescription type="broadcast" class="com.google.android.gms.common.analytics.CoreAnalyticsReceiver" sender="any" />
+<prescription type="broadcast" class="com.google.android.gms.analytics.internal.GServicesChangedReceiver" sender="any" />
