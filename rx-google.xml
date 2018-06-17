@@ -1,3 +1,4 @@
+<prescriptions xmlns="http://greenify.github.io/schemas/prescription/v3">
 <!-- 活动-应用使用情况统计 -->
 <prescription type="activity" class="com.google.android.gms.usagereporting.settings.UsageReportingActivity" sender="any" />
 <prescription type="activity" class="com.google.android.gms.ads.purchase.InAppPurchaseActivity" sender="any" />
