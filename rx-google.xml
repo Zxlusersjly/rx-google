@@ -22,4 +22,14 @@
 <prescription type="broadcast" class="com.google.android.location.internal.AnalyticsSamplerReceiver" sender="any" />
 <prescription type="broadcast" class="com.google.android.gms.common.analytics.CoreAnalyticsReceiver" sender="any" />
 <prescription type="broadcast" class="com.google.android.gms.analytics.internal.GServicesChangedReceiver" sender="any" />
+<!-- 未分类 -->
+<prescription type="service" class="com.google.android.gms.measurement.AppMeasurementJobService" sender="any" />
+<prescription type="service" class="com.google.firebase.components.ComponentDiscoveryService" sender="any" />
+<prescription type="service" class="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService" sender="any" />
+<prescription type="service" class="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery" sender="any" />
+<prescription type="service" class="com.google.firebase.messaging.FirebaseMessagingService" sender="any" />
+<prescription type="service" class="com.google.firebase.iid.FirebaseInstanceIdService" sender="any" />
+<prescription type="broadcast" class="com.google.android.gms.measurement.AppMeasurementReceiver" sender="any" />
+<prescription type="broadcast" class="com.google.firebase.iid.FirebaseInstanceIdReceiver" sender="any" />
+<prescription type="broadcast" class="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver" sender="any" />
 </prescriptions>
